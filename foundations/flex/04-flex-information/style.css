@@ -10,6 +10,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* wrapping in a image and a text, center text, limit image */
+.piece {
+  max-width: 200px;
+  text-align: center;
+}
+
+
+/* contains pieces, list pieces as flex items, make them wrap, center them and provide gap and padding for space between it and header */
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 45px;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
@@ -24,3 +43,4 @@ img {
   justify-content: center;
   background: #eee;
 }
+
